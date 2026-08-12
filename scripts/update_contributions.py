@@ -8,7 +8,7 @@ import urllib.request
 from pathlib import Path
 
 USERNAME = "Nikhi00718"
-README = Path("README.md")
+PROFILE = Path("PROFILE.md")
 START = "<!-- OSS-CONTRIBUTIONS:START -->"
 END = "<!-- OSS-CONTRIBUTIONS:END -->"
 
@@ -81,13 +81,13 @@ def build_section(items: list[dict]) -> str:
 
 
 def main() -> None:
-    current = README.read_text(encoding="utf-8")
+    current = PROFILE.read_text(encoding="utf-8")
     section = build_section(github_search())
     pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.DOTALL)
     updated, replacements = pattern.subn(section, current)
     if replacements != 1:
         raise RuntimeError("Expected exactly one contribution marker block")
-    README.write_text(updated, encoding="utf-8")
+    PROFILE.write_text(updated, encoding="utf-8")
 
 
 if __name__ == "__main__":
