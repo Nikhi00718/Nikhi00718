@@ -36,44 +36,49 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**3 merged · 15 active · 3 closed without merge**
+**4 merged · 18 active · 4 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix: prevent int32 overflow in box_iou](https://github.com/roboflow/supervision/pull/2485) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve OBB orientation through clipped augmentations](https://github.com/ultralytics/ultralytics/pull/25723) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [fix GMC empty descriptor handling](https://github.com/ultralytics/ultralytics/pull/25709) |
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (15)</strong></summary>
+<summary><strong>Active pull requests (18)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | [Correct `SpanNode.duration` return documentation](https://github.com/pydantic/pydantic-ai/pull/7368) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix: prevent int32 overflow in box_iou](https://github.com/roboflow/supervision/pull/2485) |
-| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [fix: stop Agent retries after output limit](https://github.com/deepset-ai/haystack/pull/12303) |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
+| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions](https://github.com/opencv/opencv/pull/29686) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
+| [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions](https://github.com/opencv/opencv/pull/29686) |
-| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
-| [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
-| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
-| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix Laplacian pyramid construction and reconstruction](https://github.com/scikit-image/scikit-image/pull/8274) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix CUDA Abs signed zero handling](https://github.com/microsoft/onnxruntime/pull/31832) |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
+| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
+| [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
+| [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate projection join key maps](https://github.com/feast-dev/feast/pull/6730) |
+| [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate default user permissions](https://github.com/feast-dev/feast/pull/6729) |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [Fix shared default tokenizer in WordEmbeddings.from_text_file](https://github.com/huggingface/sentence-transformers/pull/3925) |
+| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Honor NumPy copy semantics in __array__ methods](https://github.com/scikit-image/scikit-image/pull/8279) |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [fix: stop Agent retries after output limit](https://github.com/deepset-ai/haystack/pull/12303) |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | [Correct `SpanNode.duration` return documentation](https://github.com/pydantic/pydantic-ai/pull/7368) |
 
 </details>
 
 <details>
-<summary><strong>Closed without merge (3)</strong></summary>
+<summary><strong>Closed without merge (4)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix Laplacian pyramid construction and reconstruction](https://github.com/scikit-image/scikit-image/pull/8274) |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | [Correct SpanNode.duration return documentation](https://github.com/pydantic/pydantic-ai/pull/7366) |
 | [huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub) | [Stop retrying permanent upload commit failures](https://github.com/huggingface/huggingface_hub/pull/4649) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [Fix AKAZE descriptor subsampling for fewer channels](https://github.com/opencv/opencv/pull/29687) |
