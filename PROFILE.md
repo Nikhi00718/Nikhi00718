@@ -36,12 +36,15 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**5 merged · 16 active · 6 closed without merge**
+**8 merged · 13 active · 6 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions (4.x)](https://github.com/opencv/opencv/pull/29709) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions](https://github.com/opencv/opencv/pull/29686) |
+| [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate default user permissions](https://github.com/feast-dev/feast/pull/6729) |
 | [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate projection join key maps](https://github.com/feast-dev/feast/pull/6730) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix: prevent int32 overflow in box_iou](https://github.com/roboflow/supervision/pull/2485) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve OBB orientation through clipped augmentations](https://github.com/ultralytics/ultralytics/pull/25723) |
@@ -49,13 +52,10 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (16)</strong></summary>
+<summary><strong>Active pull requests (13)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate default user permissions](https://github.com/feast-dev/feast/pull/6729) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions](https://github.com/opencv/opencv/pull/29686) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions (4.x)](https://github.com/opencv/opencv/pull/29709) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [fix: stop Agent retries after output limit](https://github.com/deepset-ai/haystack/pull/12303) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
