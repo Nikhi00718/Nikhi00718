@@ -56,14 +56,14 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [fix: stop Agent retries after output limit](https://github.com/deepset-ai/haystack/pull/12303) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
 | [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [Fix shared default tokenizer in WordEmbeddings.from_text_file](https://github.com/huggingface/sentence-transformers/pull/3925) |
