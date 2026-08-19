@@ -36,7 +36,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**8 merged · 13 active · 6 closed without merge**
+**8 merged · 14 active · 6 closed without merge**
 
 ### Merged
 
@@ -52,11 +52,12 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (13)</strong></summary>
+<summary><strong>Active pull requests (14)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
+| [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [fix: stop Agent retries after output limit](https://github.com/deepset-ai/haystack/pull/12303) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
