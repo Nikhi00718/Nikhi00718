@@ -36,7 +36,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**9 merged · 13 active · 6 closed without merge**
+**9 merged · 15 active · 6 closed without merge**
 
 ### Merged
 
@@ -53,10 +53,12 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (13)</strong></summary>
+<summary><strong>Active pull requests (15)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) | [[Bug] Make vector-store shutdown generation-safe](https://github.com/vllm-project/semantic-router/pull/3057) |
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
