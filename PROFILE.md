@@ -57,17 +57,17 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
+| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Honor NumPy copy semantics in __array__ methods](https://github.com/scikit-image/scikit-image/pull/8279) |
+| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) | [[Bug] Make vector-store shutdown generation-safe](https://github.com/vllm-project/semantic-router/pull/3057) |
 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
-| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
-| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Honor NumPy copy semantics in __array__ methods](https://github.com/scikit-image/scikit-image/pull/8279) |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [Fix shared default tokenizer in WordEmbeddings.from_text_file](https://github.com/huggingface/sentence-transformers/pull/3925) |
 | [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
 | [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
