@@ -57,9 +57,9 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
+| [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) | [[Bug] Make vector-store shutdown generation-safe](https://github.com/vllm-project/semantic-router/pull/3057) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Honor NumPy copy semantics in __array__ methods](https://github.com/scikit-image/scikit-image/pull/8279) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
-| [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) | [[Bug] Make vector-store shutdown generation-safe](https://github.com/vllm-project/semantic-router/pull/3057) |
 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
