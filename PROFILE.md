@@ -36,7 +36,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**13 merged · 15 active · 8 closed without merge**
+**13 merged · 14 active · 9 closed without merge**
 
 ### Merged
 
@@ -57,13 +57,12 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (15)</strong></summary>
+<summary><strong>Active pull requests (14)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
 | [python-attrs/attrs](https://github.com/python-attrs/attrs) | [Resolve forward references in generated init annotations](https://github.com/python-attrs/attrs/pull/1619) |
 | [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
-| [requests-cache/requests-cache](https://github.com/requests-cache/requests-cache) | [Include session cookies in cache keys](https://github.com/requests-cache/requests-cache/pull/1188) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Honor NumPy copy semantics in __array__ methods](https://github.com/scikit-image/scikit-image/pull/8279) |
 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
@@ -80,10 +79,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (8)</strong></summary>
+<summary><strong>Closed without merge (9)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [requests-cache/requests-cache](https://github.com/requests-cache/requests-cache) | [Include session cookies in cache keys](https://github.com/requests-cache/requests-cache/pull/1188) |
 | [pallets/jinja](https://github.com/pallets/jinja) | [[rejected AI] Preserve empty strings in indent(first=True)](https://github.com/pallets/jinja/pull/2265) |
 | [pallets/click](https://github.com/pallets/click) | [[rejected AI] Show repeated option metavars in help](https://github.com/pallets/click/pull/3839) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix CUDA Abs signed zero handling](https://github.com/microsoft/onnxruntime/pull/31832) |
