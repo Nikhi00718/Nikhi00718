@@ -36,12 +36,13 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**13 merged · 15 active · 9 closed without merge**
+**14 merged · 14 active · 9 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Honor NumPy copy semantics in __array__ methods](https://github.com/scikit-image/scikit-image/pull/8279) |
 | [Avikisback/die-yield-prediction-baseline](https://github.com/Avikisback/die-yield-prediction-baseline) | [Multi-resolution fusion + per-wafer rate recovery: +7.8% AP, +4.3% fail F1 on Model B](https://github.com/Avikisback/die-yield-prediction-baseline/pull/1) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
 | [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) | [[Bug] Make vector-store shutdown generation-safe](https://github.com/vllm-project/semantic-router/pull/3057) |
@@ -57,7 +58,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (15)</strong></summary>
+<summary><strong>Active pull requests (14)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
@@ -69,7 +70,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | [Fix delete_original crash for regular checkpoint files](https://github.com/lyogavin/airllm/pull/362) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
-| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Honor NumPy copy semantics in __array__ methods](https://github.com/scikit-image/scikit-image/pull/8279) |
 | [python-attrs/attrs](https://github.com/python-attrs/attrs) | [Resolve forward references in generated init annotations](https://github.com/python-attrs/attrs/pull/1619) |
 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
