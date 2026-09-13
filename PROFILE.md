@@ -63,8 +63,8 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | Project | Contribution |
 | --- | --- |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
 | [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
 | [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
