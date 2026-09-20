@@ -84,9 +84,9 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
+| [pallets/click](https://github.com/pallets/click) | [[rejected AI] Show repeated option metavars in help](https://github.com/pallets/click/pull/3839) |
 | [requests-cache/requests-cache](https://github.com/requests-cache/requests-cache) | [Include session cookies in cache keys](https://github.com/requests-cache/requests-cache/pull/1188) |
 | [pallets/jinja](https://github.com/pallets/jinja) | [[rejected AI] Preserve empty strings in indent(first=True)](https://github.com/pallets/jinja/pull/2265) |
-| [pallets/click](https://github.com/pallets/click) | [[rejected AI] Show repeated option metavars in help](https://github.com/pallets/click/pull/3839) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix CUDA Abs signed zero handling](https://github.com/microsoft/onnxruntime/pull/31832) |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | [Correct `SpanNode.duration` return documentation](https://github.com/pydantic/pydantic-ai/pull/7368) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix Laplacian pyramid construction and reconstruction](https://github.com/scikit-image/scikit-image/pull/8274) |
