@@ -36,7 +36,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**14 merged · 14 active · 9 closed without merge**
+**14 merged · 15 active · 10 closed without merge**
 
 ### Merged
 
@@ -58,10 +58,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (14)</strong></summary>
+<summary><strong>Active pull requests (15)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix repeated single-file ZIP extraction](https://github.com/ultralytics/ultralytics/pull/26273) |
 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | [Fix delete_original crash for regular checkpoint files](https://github.com/lyogavin/airllm/pull/362) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
@@ -80,10 +81,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (9)</strong></summary>
+<summary><strong>Closed without merge (10)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | [fix(core): handle empty `group_ids` filters](https://github.com/langchain-ai/langchain/pull/40746) |
 | [pallets/click](https://github.com/pallets/click) | [[rejected AI] Show repeated option metavars in help](https://github.com/pallets/click/pull/3839) |
 | [requests-cache/requests-cache](https://github.com/requests-cache/requests-cache) | [Include session cookies in cache keys](https://github.com/requests-cache/requests-cache/pull/1188) |
 | [pallets/jinja](https://github.com/pallets/jinja) | [[rejected AI] Preserve empty strings in indent(first=True)](https://github.com/pallets/jinja/pull/2265) |
