@@ -36,12 +36,14 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**17 merged · 14 active · 10 closed without merge**
+**19 merged · 15 active · 10 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore PyTorch functions after failed exports](https://github.com/ultralytics/ultralytics/pull/26325) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Discover .yml dataset YAMLs in directories and archives](https://github.com/ultralytics/ultralytics/pull/26323) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve optimizer state when OOM auto-reduces batch size](https://github.com/ultralytics/ultralytics/pull/26284) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Stop `non_max_suppression()` from mutating input predictions](https://github.com/ultralytics/ultralytics/pull/26278) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix repeated `safe_download` of single-file ZIP archives](https://github.com/ultralytics/ultralytics/pull/26273) |
@@ -61,10 +63,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (14)</strong></summary>
+<summary><strong>Active pull requests (15)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent PIL images in shared RGB conversion](https://github.com/huggingface/transformers/pull/49079) |
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
