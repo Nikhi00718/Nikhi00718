@@ -36,7 +36,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**19 merged · 15 active · 10 closed without merge**
+**19 merged · 17 active · 11 closed without merge**
 
 ### Merged
 
@@ -63,10 +63,14 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (15)</strong></summary>
+<summary><strong>Active pull requests (17)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix YOLOv9 distillation across teacher and student head layouts](https://github.com/ultralytics/ultralytics/pull/26338) |
+| [Lightning-AI/torchmetrics](https://github.com/Lightning-AI/torchmetrics) | [Fix WER and CER for empty reference transcripts](https://github.com/Lightning-AI/torchmetrics/pull/3517) |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | [[Bugfix] Return bound ephemeral port when VLLM_PORT is zero](https://github.com/vllm-project/vllm/pull/58696) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent PIL images in shared RGB conversion](https://github.com/huggingface/transformers/pull/49079) |
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
@@ -74,10 +78,8 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
 | [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
-| [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
 | [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
-| [lyogavin/airllm](https://github.com/lyogavin/airllm) | [Fix delete_original crash for regular checkpoint files](https://github.com/lyogavin/airllm/pull/362) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
@@ -86,10 +88,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (10)</strong></summary>
+<summary><strong>Closed without merge (11)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [lyogavin/airllm](https://github.com/lyogavin/airllm) | [Fix delete_original crash for regular checkpoint files](https://github.com/lyogavin/airllm/pull/362) |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | [fix(core): handle empty `group_ids` filters](https://github.com/langchain-ai/langchain/pull/40746) |
 | [pallets/click](https://github.com/pallets/click) | [[rejected AI] Show repeated option metavars in help](https://github.com/pallets/click/pull/3839) |
 | [requests-cache/requests-cache](https://github.com/requests-cache/requests-cache) | [Include session cookies in cache keys](https://github.com/requests-cache/requests-cache/pull/1188) |
