@@ -36,12 +36,14 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**19 merged · 17 active · 11 closed without merge**
+**21 merged · 18 active · 11 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix multi-row CSV prediction sources](https://github.com/ultralytics/ultralytics/pull/26360) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix YOLOv9 distillation across teacher and student head layouts](https://github.com/ultralytics/ultralytics/pull/26338) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore PyTorch functions after failed exports](https://github.com/ultralytics/ultralytics/pull/26325) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Discover .yml dataset YAMLs in directories and archives](https://github.com/ultralytics/ultralytics/pull/26323) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve optimizer state when OOM auto-reduces batch size](https://github.com/ultralytics/ultralytics/pull/26284) |
@@ -63,12 +65,13 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (17)</strong></summary>
+<summary><strong>Active pull requests (18)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Reject fractional class IDs during dataset scans](https://github.com/ultralytics/ultralytics/pull/26367) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): load YOLO segmentation labels with trailing confidence](https://github.com/roboflow/supervision/pull/2626) |
 | [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix YOLOv9 distillation across teacher and student head layouts](https://github.com/ultralytics/ultralytics/pull/26338) |
 | [Lightning-AI/torchmetrics](https://github.com/Lightning-AI/torchmetrics) | [Fix WER and CER for empty reference transcripts](https://github.com/Lightning-AI/torchmetrics/pull/3517) |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | [[Bugfix] Return bound ephemeral port when VLLM_PORT is zero](https://github.com/vllm-project/vllm/pull/58696) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent PIL images in shared RGB conversion](https://github.com/huggingface/transformers/pull/49079) |
