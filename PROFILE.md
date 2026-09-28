@@ -36,12 +36,13 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**21 merged · 18 active · 11 closed without merge**
+**22 merged · 18 active · 11 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Reject fractional class IDs during dataset scans](https://github.com/ultralytics/ultralytics/pull/26367) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix multi-row CSV prediction sources](https://github.com/ultralytics/ultralytics/pull/26360) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix YOLOv9 distillation across teacher and student head layouts](https://github.com/ultralytics/ultralytics/pull/26338) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore PyTorch functions after failed exports](https://github.com/ultralytics/ultralytics/pull/26325) |
@@ -69,7 +70,8 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Reject fractional class IDs during dataset scans](https://github.com/ultralytics/ultralytics/pull/26367) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix flips of left-top-width-height instance boxes](https://github.com/ultralytics/ultralytics/pull/26397) |
+| [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): load YOLO segmentation labels with trailing confidence](https://github.com/roboflow/supervision/pull/2626) |
 | [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
 | [Lightning-AI/torchmetrics](https://github.com/Lightning-AI/torchmetrics) | [Fix WER and CER for empty reference transcripts](https://github.com/Lightning-AI/torchmetrics/pull/3517) |
@@ -82,7 +84,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
 | [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
-| [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release temporary JNI string references](https://github.com/microsoft/onnxruntime/pull/31829) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
