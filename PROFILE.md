@@ -36,12 +36,15 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**22 merged · 18 active · 11 closed without merge**
+**25 merged · 24 active · 11 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(io): keep RGB and grayscale opaque when loading as RGBA](https://github.com/kornia/kornia/pull/5077) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): load YOLO segmentation labels with trailing confidence](https://github.com/roboflow/supervision/pull/2626) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix flips of left-top-width-height instance boxes](https://github.com/ultralytics/ultralytics/pull/26397) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Reject fractional class IDs during dataset scans](https://github.com/ultralytics/ultralytics/pull/26367) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix multi-row CSV prediction sources](https://github.com/ultralytics/ultralytics/pull/26360) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix YOLOv9 distillation across teacher and student head layouts](https://github.com/ultralytics/ultralytics/pull/26338) |
@@ -66,13 +69,19 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (18)</strong></summary>
+<summary><strong>Active pull requests (24)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix flips of left-top-width-height instance boxes](https://github.com/ultralytics/ultralytics/pull/26397) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): accept Transformers semantic outputs with scores](https://github.com/roboflow/supervision/pull/2643) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(utils): clip crop bounds before integer conversion](https://github.com/roboflow/supervision/pull/2642) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve class IDs in 16-bit segment mask conversion](https://github.com/ultralytics/ultralytics/pull/26410) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve class IDs in indexed semantic PNG masks](https://github.com/ultralytics/ultralytics/pull/26426) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
+| [langfuse/langfuse](https://github.com/langfuse/langfuse) | [fix(scores): preserve sparse values in timeline buckets](https://github.com/langfuse/langfuse/pull/18025) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Include unannotated images in LVIS split lists](https://github.com/ultralytics/ultralytics/pull/26421) |
 | [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): load YOLO segmentation labels with trailing confidence](https://github.com/roboflow/supervision/pull/2626) |
 | [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
 | [Lightning-AI/torchmetrics](https://github.com/Lightning-AI/torchmetrics) | [Fix WER and CER for empty reference transcripts](https://github.com/Lightning-AI/torchmetrics/pull/3517) |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | [[Bugfix] Return bound ephemeral port when VLLM_PORT is zero](https://github.com/vllm-project/vllm/pull/58696) |
