@@ -36,12 +36,13 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**26 merged · 23 active · 13 closed without merge**
+**27 merged · 24 active · 13 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix CutMix skipping every paste on PNG semantic mask datasets](https://github.com/ultralytics/ultralytics/pull/26439) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [ultralytics 8.4.166 Support Pascal VOC-style palette and 16-bit PNG masks](https://github.com/ultralytics/ultralytics/pull/26426) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(io): keep RGB and grayscale opaque when loading as RGBA](https://github.com/kornia/kornia/pull/5077) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): load YOLO segmentation labels with trailing confidence](https://github.com/roboflow/supervision/pull/2626) |
@@ -70,16 +71,17 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (23)</strong></summary>
+<summary><strong>Active pull requests (24)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix CutMix for semantic mask datasets](https://github.com/ultralytics/ultralytics/pull/26439) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix RT-DETR contrastive denoising group indices](https://github.com/ultralytics/ultralytics/pull/26465) |
+| [scikit-learn-contrib/imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) | [[MRG] ENH Add native Polars input and output support for samplers](https://github.com/scikit-learn-contrib/imbalanced-learn/pull/1225) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(utils): clip crop bounds before integer conversion](https://github.com/roboflow/supervision/pull/2642) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): accept Transformers semantic outputs with scores](https://github.com/roboflow/supervision/pull/2643) |
 | [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | [fix(clone): keep end-of-buffer preview loops within audio](https://github.com/debpalash/VoiceStudio/pull/2429) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): accept Transformers semantic outputs with scores](https://github.com/roboflow/supervision/pull/2643) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(utils): clip crop bounds before integer conversion](https://github.com/roboflow/supervision/pull/2642) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | [fix(scores): preserve sparse values in timeline buckets](https://github.com/langfuse/langfuse/pull/18025) |
 | [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
