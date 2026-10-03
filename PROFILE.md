@@ -36,12 +36,16 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**29 merged · 26 active · 14 closed without merge**
+**33 merged · 24 active · 14 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): recover stale same-name rig generations](https://github.com/mvschwarz/openrig/pull/513) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix RT-DETR Hungarian matching precision under AMP](https://github.com/ultralytics/ultralytics/pull/26475) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): accept Transformers semantic outputs with scores](https://github.com/roboflow/supervision/pull/2643) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(utils): clip crop bounds before integer conversion](https://github.com/roboflow/supervision/pull/2642) |
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | [fix(clone): keep end-of-buffer preview loops within audio](https://github.com/debpalash/VoiceStudio/pull/2429) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix RT-DETR contrastive denoising group indices](https://github.com/ultralytics/ultralytics/pull/26465) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix CutMix skipping every paste on PNG semantic mask datasets](https://github.com/ultralytics/ultralytics/pull/26439) |
@@ -73,32 +77,30 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (26)</strong></summary>
+<summary><strong>Active pull requests (24)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tracing): preserve message parts and embedded tool calls](https://github.com/BerriAI/litellm/pull/44078) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate pose boxes and segment vertices during label scans](https://github.com/ultralytics/ultralytics/pull/26511) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Add rotation-aligned OBB crops to save_crop](https://github.com/ultralytics/ultralytics/pull/26486) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tracing): preserve message parts and embedded tool calls](https://github.com/BerriAI/litellm/pull/44078) |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | [[Python] Fix FlexBuffers encoding outside the float32 range](https://github.com/google/flatbuffers/pull/9292) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
 | [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: handle failed string tensor conversion safely](https://github.com/microsoft/onnxruntime/pull/31829) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix RT-DETR Hungarian matching precision under AMP](https://github.com/ultralytics/ultralytics/pull/26475) |
 | [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
 | [scikit-learn-contrib/imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) | [[MRG] ENH Add native Polars input and output support for samplers](https://github.com/scikit-learn-contrib/imbalanced-learn/pull/1225) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(utils): clip crop bounds before integer conversion](https://github.com/roboflow/supervision/pull/2642) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): accept Transformers semantic outputs with scores](https://github.com/roboflow/supervision/pull/2643) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | [fix(scores): preserve sparse values in timeline buckets](https://github.com/langfuse/langfuse/pull/18025) |
 | [Lightning-AI/torchmetrics](https://github.com/Lightning-AI/torchmetrics) | [Fix WER and CER for empty reference transcripts](https://github.com/Lightning-AI/torchmetrics/pull/3517) |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | [[Bugfix] Return bound ephemeral port when VLLM_PORT is zero](https://github.com/vllm-project/vllm/pull/58696) |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent PIL images in shared RGB conversion](https://github.com/huggingface/transformers/pull/49079) |
 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
 | [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
