@@ -36,12 +36,14 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**33 merged · 24 active · 14 closed without merge**
+**35 merged · 25 active · 15 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): make launch readiness window configurable](https://github.com/mvschwarz/openrig/pull/643) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Add rotation-aligned OBB crops to save_crop](https://github.com/ultralytics/ultralytics/pull/26486) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): recover stale same-name rig generations](https://github.com/mvschwarz/openrig/pull/513) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix RT-DETR Hungarian matching precision under AMP](https://github.com/ultralytics/ultralytics/pull/26475) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): accept Transformers semantic outputs with scores](https://github.com/roboflow/supervision/pull/2643) |
@@ -77,12 +79,13 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (24)</strong></summary>
+<summary><strong>Active pull requests (25)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate pose boxes and segment vertices during label scans](https://github.com/ultralytics/ultralytics/pull/26511) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Add rotation-aligned OBB crops to save_crop](https://github.com/ultralytics/ultralytics/pull/26486) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [core(persistence): emit valid JSON string escapes](https://github.com/opencv/opencv/pull/30141) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent integer overflow in anchor coordinates](https://github.com/roboflow/supervision/pull/2660) |
+| [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tracing): preserve message parts and embedded tool calls](https://github.com/BerriAI/litellm/pull/44078) |
@@ -109,10 +112,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (14)</strong></summary>
+<summary><strong>Closed without merge (15)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate pose boxes during dataset label scans](https://github.com/ultralytics/ultralytics/pull/26511) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26331) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve class IDs in 16-bit segment mask conversion](https://github.com/ultralytics/ultralytics/pull/26410) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Include unannotated images in LVIS split lists](https://github.com/ultralytics/ultralytics/pull/26421) |
