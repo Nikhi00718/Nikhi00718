@@ -36,12 +36,14 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**36 merged · 26 active · 15 closed without merge**
+**38 merged · 25 active · 15 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): support non-contiguous boxes in compute_area](https://github.com/kornia/kornia/pull/5468) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [core(persistence): emit valid JSON string escapes](https://github.com/opencv/opencv/pull/30141) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): make launch readiness window configurable](https://github.com/mvschwarz/openrig/pull/643) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Add rotation-aligned OBB crops to save_crop](https://github.com/ultralytics/ultralytics/pull/26486) |
@@ -80,13 +82,12 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (26)</strong></summary>
+<summary><strong>Active pull requests (25)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [opencv/opencv](https://github.com/opencv/opencv) | [core(persistence): emit valid JSON string escapes](https://github.com/opencv/opencv/pull/30141) |
+| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(key_points): handle empty Transformers pose results](https://github.com/roboflow/supervision/pull/2671) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): support non-contiguous boxes in compute_area](https://github.com/kornia/kornia/pull/5468) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent integer overflow in anchor coordinates](https://github.com/roboflow/supervision/pull/2660) |
 | [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
