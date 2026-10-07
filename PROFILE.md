@@ -36,12 +36,15 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**38 merged · 25 active · 15 closed without merge**
+**41 merged · 22 active · 15 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(key_points): handle empty Transformers pose results](https://github.com/roboflow/supervision/pull/2671) |
+| [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent integer overflow in anchor coordinates](https://github.com/roboflow/supervision/pull/2660) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): support non-contiguous boxes in compute_area](https://github.com/kornia/kornia/pull/5468) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [core(persistence): emit valid JSON string escapes](https://github.com/opencv/opencv/pull/30141) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
@@ -82,15 +85,13 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (25)</strong></summary>
+<summary><strong>Active pull requests (22)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(key_points): handle empty Transformers pose results](https://github.com/roboflow/supervision/pull/2671) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent integer overflow in anchor coordinates](https://github.com/roboflow/supervision/pull/2660) |
-| [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
+| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
+| [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tracing): preserve message parts and embedded tool calls](https://github.com/BerriAI/litellm/pull/44078) |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | [[Python] Fix FlexBuffers encoding outside the float32 range](https://github.com/google/flatbuffers/pull/9292) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
@@ -101,7 +102,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: handle failed string tensor conversion safely](https://github.com/microsoft/onnxruntime/pull/31829) |
-| [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
 | [scikit-learn-contrib/imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) | [[MRG] ENH Add native Polars input and output support for samplers](https://github.com/scikit-learn-contrib/imbalanced-learn/pull/1225) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | [fix(scores): preserve sparse values in timeline buckets](https://github.com/langfuse/langfuse/pull/18025) |
