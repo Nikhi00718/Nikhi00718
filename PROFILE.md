@@ -36,12 +36,13 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**44 merged · 23 active · 18 closed without merge**
+**45 merged · 23 active · 18 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(feature): keep SMNN mutual matches in integer space](https://github.com/kornia/kornia/pull/5687) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve nested images in classification auto-split](https://github.com/ultralytics/ultralytics/pull/26598) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(classification): reject negative top-k counts](https://github.com/roboflow/supervision/pull/2695) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): preserve VideoBoxes temporal axis when indexing](https://github.com/kornia/kornia/pull/5613) |
@@ -94,7 +95,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | --- | --- |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent integer overflow in object size categories](https://github.com/roboflow/supervision/pull/2713) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix confidence-ordered validation matching for alternate targets](https://github.com/ultralytics/ultralytics/pull/26616) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(feature): keep SMNN mutual matches in integer space](https://github.com/kornia/kornia/pull/5687) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve palette and CMYK colors in panorama rendering](https://github.com/colmap/colmap/pull/4840) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
