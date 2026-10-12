@@ -36,12 +36,16 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**45 merged · 23 active · 18 closed without merge**
+**49 merged · 26 active · 19 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): keep perspective warps finite at extreme scales](https://github.com/kornia/kornia/pull/5752) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(image): honor images per row in make_grid](https://github.com/kornia/kornia/pull/5745) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve palette and CMYK colors in panorama rendering](https://github.com/colmap/colmap/pull/4840) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix confidence-ordered validation matching for alternate targets](https://github.com/ultralytics/ultralytics/pull/26616) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(feature): keep SMNN mutual matches in integer space](https://github.com/kornia/kornia/pull/5687) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve nested images in classification auto-split](https://github.com/ultralytics/ultralytics/pull/26598) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(classification): reject negative top-k counts](https://github.com/roboflow/supervision/pull/2695) |
@@ -89,15 +93,18 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (23)</strong></summary>
+<summary><strong>Active pull requests (26)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent integer overflow in object size categories](https://github.com/roboflow/supervision/pull/2713) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix confidence-ordered validation matching for alternate targets](https://github.com/ultralytics/ultralytics/pull/26616) |
-| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve palette and CMYK colors in panorama rendering](https://github.com/colmap/colmap/pull/4840) |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve image names with spaces when reading text models](https://github.com/colmap/colmap/pull/4849) |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent integer overflow in object size categories](https://github.com/roboflow/supervision/pull/2713) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(color): stop RgbToHls exporting an all-zero ONNX graph](https://github.com/kornia/kornia/pull/5790) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve non-ASCII class names and paths in Windows logs](https://github.com/ultralytics/ultralytics/pull/26626) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | [[Python] Fix FlexBuffers encoding outside the float32 range](https://github.com/google/flatbuffers/pull/9292) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
@@ -120,10 +127,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (18)</strong></summary>
+<summary><strong>Closed without merge (19)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the static batch from metadata-free ONNX graphs](https://github.com/ultralytics/ultralytics/pull/26622) |
 | [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tracing): preserve message parts and embedded tool calls](https://github.com/BerriAI/litellm/pull/44078) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore call-time directory in WorkingDirectory decorators](https://github.com/ultralytics/ultralytics/pull/26572) |
