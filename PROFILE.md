@@ -36,12 +36,16 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**49 merged · 26 active · 19 closed without merge**
+**53 merged · 27 active · 19 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent integer overflow in object size categories](https://github.com/roboflow/supervision/pull/2713) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve non-ASCII class names and paths in Windows logs](https://github.com/ultralytics/ultralytics/pull/26626) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(color): stop RgbToHls exporting an all-zero ONNX graph](https://github.com/kornia/kornia/pull/5790) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve image names with spaces when reading text models](https://github.com/colmap/colmap/pull/4849) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): keep perspective warps finite at extreme scales](https://github.com/kornia/kornia/pull/5752) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(image): honor images per row in make_grid](https://github.com/kornia/kornia/pull/5745) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Preserve palette and CMYK colors in panorama rendering](https://github.com/colmap/colmap/pull/4840) |
@@ -93,18 +97,19 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (26)</strong></summary>
+<summary><strong>Active pull requests (27)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
-| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve image names with spaces when reading text models](https://github.com/colmap/colmap/pull/4849) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent integer overflow in object size categories](https://github.com/roboflow/supervision/pull/2713) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Apply EXIF orientation to PIL prediction inputs](https://github.com/ultralytics/ultralytics/pull/26650) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(color): stop RgbToHls exporting an all-zero ONNX graph](https://github.com/kornia/kornia/pull/5790) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle non-contiguous and empty video keypoints](https://github.com/kornia/kornia/pull/5840) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Keep image observation counts consistent when resizing points](https://github.com/colmap/colmap/pull/4853) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve non-ASCII class names and paths in Windows logs](https://github.com/ultralytics/ultralytics/pull/26626) |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Open SQLite databases with UTF-8 paths on Windows](https://github.com/colmap/colmap/pull/4850) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | [[Python] Fix FlexBuffers encoding outside the float32 range](https://github.com/google/flatbuffers/pull/9292) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
