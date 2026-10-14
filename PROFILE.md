@@ -36,12 +36,16 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**53 merged · 27 active · 19 closed without merge**
+**55 merged · 25 active · 20 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Apply EXIF orientation to PIL prediction inputs](https://github.com/ultralytics/ultralytics/pull/26650) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Keep image observation counts consistent when resizing points](https://github.com/colmap/colmap/pull/4853) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle non-contiguous and empty video keypoints](https://github.com/kornia/kornia/pull/5840) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent integer overflow in object size categories](https://github.com/roboflow/supervision/pull/2713) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve non-ASCII class names and paths in Windows logs](https://github.com/ultralytics/ultralytics/pull/26626) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(color): stop RgbToHls exporting an all-zero ONNX graph](https://github.com/kornia/kornia/pull/5790) |
@@ -93,27 +97,23 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate projection join key maps](https://github.com/feast-dev/feast/pull/6730) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix: prevent int32 overflow in box_iou](https://github.com/roboflow/supervision/pull/2485) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve OBB orientation through clipped augmentations](https://github.com/ultralytics/ultralytics/pull/25723) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [fix GMC empty descriptor handling](https://github.com/ultralytics/ultralytics/pull/25709) |
-| [Vaishnavi220506/RaceVerse](https://github.com/Vaishnavi220506/RaceVerse) | [Upgrade RaceVerse for mobile racing and trained multi-agent AI](https://github.com/Vaishnavi220506/RaceVerse/pull/2) |
 
 <details>
-<summary><strong>Active pull requests (27)</strong></summary>
+<summary><strong>Active pull requests (25)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparent images in shared RGB conversion and loaders](https://github.com/huggingface/transformers/pull/49079) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Apply EXIF orientation to PIL prediction inputs](https://github.com/ultralytics/ultralytics/pull/26650) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix screenshot prediction with monitor and region parameters](https://github.com/ultralytics/ultralytics/pull/26664) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle non-contiguous and empty video keypoints](https://github.com/kornia/kornia/pull/5840) |
-| [colmap/colmap](https://github.com/colmap/colmap) | [Keep image observation counts consistent when resizing points](https://github.com/colmap/colmap/pull/4853) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(annotators): preserve grayscale channel axis in blur and pixelation](https://github.com/roboflow/supervision/pull/2725) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle singleton axes in antialiased resize](https://github.com/kornia/kornia/pull/5889) |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Open SQLite databases with UTF-8 paths on Windows](https://github.com/colmap/colmap/pull/4850) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | [[Python] Fix FlexBuffers encoding outside the float32 range](https://github.com/google/flatbuffers/pull/9292) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
 | [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
@@ -132,10 +132,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (19)</strong></summary>
+<summary><strong>Closed without merge (20)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the static batch from metadata-free ONNX graphs](https://github.com/ultralytics/ultralytics/pull/26622) |
 | [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tracing): preserve message parts and embedded tool calls](https://github.com/BerriAI/litellm/pull/44078) |
