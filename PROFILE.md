@@ -36,12 +36,15 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**55 merged · 25 active · 20 closed without merge**
+**56 merged · 28 active · 16 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized (5.x)](https://github.com/opencv/opencv/pull/30287) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read NDJSON datasets with UTF-8 encoding](https://github.com/ultralytics/ultralytics/pull/26681) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Apply EXIF orientation to PIL prediction inputs](https://github.com/ultralytics/ultralytics/pull/26650) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Keep image observation counts consistent when resizing points](https://github.com/colmap/colmap/pull/4853) |
@@ -95,20 +98,21 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions](https://github.com/opencv/opencv/pull/29686) |
 | [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate default user permissions](https://github.com/feast-dev/feast/pull/6729) |
 | [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate projection join key maps](https://github.com/feast-dev/feast/pull/6730) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix: prevent int32 overflow in box_iou](https://github.com/roboflow/supervision/pull/2485) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve OBB orientation through clipped augmentations](https://github.com/ultralytics/ultralytics/pull/25723) |
 
 <details>
-<summary><strong>Active pull requests (25)</strong></summary>
+<summary><strong>Active pull requests (28)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix screenshot prediction with monitor and region parameters](https://github.com/ultralytics/ultralytics/pull/26664) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(annotators): preserve grayscale channel axis in blur and pixelation](https://github.com/roboflow/supervision/pull/2725) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate static rectangular exports at their recorded input shape](https://github.com/ultralytics/ultralytics/pull/26690) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE 🤖🤖🤖](https://github.com/opencv/opencv/pull/30304) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning](https://github.com/opencv/opencv/pull/30303) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(contrib): accept detection tensors in visualization](https://github.com/kornia/kornia/pull/5945) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix screenshot prediction with monitor and region parameters](https://github.com/ultralytics/ultralytics/pull/26664) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle singleton axes in antialiased resize](https://github.com/kornia/kornia/pull/5889) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Open SQLite databases with UTF-8 paths on Windows](https://github.com/colmap/colmap/pull/4850) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
@@ -132,7 +136,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (20)</strong></summary>
+<summary><strong>Closed without merge (16)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
@@ -152,10 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [pallets/jinja](https://github.com/pallets/jinja) | [[rejected AI] Preserve empty strings in indent(first=True)](https://github.com/pallets/jinja/pull/2265) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix CUDA Abs signed zero handling](https://github.com/microsoft/onnxruntime/pull/31832) |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | [Correct `SpanNode.duration` return documentation](https://github.com/pydantic/pydantic-ai/pull/7368) |
-| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix Laplacian pyramid construction and reconstruction](https://github.com/scikit-image/scikit-image/pull/8274) |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | [Correct SpanNode.duration return documentation](https://github.com/pydantic/pydantic-ai/pull/7366) |
-| [huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub) | [Stop retrying permanent upload commit failures](https://github.com/huggingface/huggingface_hub/pull/4649) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [Fix AKAZE descriptor subsampling for fewer channels](https://github.com/opencv/opencv/pull/29687) |
 
 </details>
 
