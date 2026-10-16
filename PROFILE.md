@@ -36,12 +36,19 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**56 merged · 28 active · 16 closed without merge**
+**60 merged · 26 active · 14 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate static rectangular exports at their recorded input shape](https://github.com/ultralytics/ultralytics/pull/26690) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix screenshot prediction with monitor and region parameters](https://github.com/ultralytics/ultralytics/pull/26664) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle singleton axes in antialiased resize](https://github.com/kornia/kornia/pull/5889) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(contrib): accept detection tensors in visualization](https://github.com/kornia/kornia/pull/5945) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(annotators): preserve grayscale channel axis in blur and pixelation](https://github.com/roboflow/supervision/pull/2725) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): discard watchdog evaluations after job retirement](https://github.com/mvschwarz/openrig/pull/1325) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized (5.x)](https://github.com/opencv/opencv/pull/30287) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read NDJSON datasets with UTF-8 encoding](https://github.com/ultralytics/ultralytics/pull/26681) |
@@ -95,23 +102,18 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [Fix shared default tokenizer in WordEmbeddings.from_text_file](https://github.com/huggingface/sentence-transformers/pull/3925) |
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [fix: stop Agent retries after output limit](https://github.com/deepset-ai/haystack/pull/12303) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions (4.x)](https://github.com/opencv/opencv/pull/29709) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions](https://github.com/opencv/opencv/pull/29686) |
-| [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate default user permissions](https://github.com/feast-dev/feast/pull/6729) |
-| [feast-dev/feast](https://github.com/feast-dev/feast) | [fix: Isolate projection join key maps](https://github.com/feast-dev/feast/pull/6730) |
 
 <details>
-<summary><strong>Active pull requests (28)</strong></summary>
+<summary><strong>Active pull requests (26)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(annotators): preserve grayscale channel axis in blur and pixelation](https://github.com/roboflow/supervision/pull/2725) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate static rectangular exports at their recorded input shape](https://github.com/ultralytics/ultralytics/pull/26690) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): honor elastic transform padding modes](https://github.com/kornia/kornia/pull/5987) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Filter RT-DETR validation predictions by requested classes](https://github.com/ultralytics/ultralytics/pull/26702) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): align Ultralytics masks after letterbox padding](https://github.com/roboflow/supervision/pull/2739) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Correct stereo disparity-to-3D reprojection](https://github.com/colmap/colmap/pull/4861) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE 🤖🤖🤖](https://github.com/opencv/opencv/pull/30304) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning](https://github.com/opencv/opencv/pull/30303) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(contrib): accept detection tensors in visualization](https://github.com/kornia/kornia/pull/5945) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix screenshot prediction with monitor and region parameters](https://github.com/ultralytics/ultralytics/pull/26664) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle singleton axes in antialiased resize](https://github.com/kornia/kornia/pull/5889) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning 🤖🤖🤖](https://github.com/opencv/opencv/pull/30303) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Open SQLite databases with UTF-8 paths on Windows](https://github.com/colmap/colmap/pull/4850) |
@@ -136,7 +138,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (16)</strong></summary>
+<summary><strong>Closed without merge (14)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
@@ -154,8 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [pallets/click](https://github.com/pallets/click) | [[rejected AI] Show repeated option metavars in help](https://github.com/pallets/click/pull/3839) |
 | [requests-cache/requests-cache](https://github.com/requests-cache/requests-cache) | [Include session cookies in cache keys](https://github.com/requests-cache/requests-cache/pull/1188) |
 | [pallets/jinja](https://github.com/pallets/jinja) | [[rejected AI] Preserve empty strings in indent(first=True)](https://github.com/pallets/jinja/pull/2265) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix CUDA Abs signed zero handling](https://github.com/microsoft/onnxruntime/pull/31832) |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | [Correct `SpanNode.duration` return documentation](https://github.com/pydantic/pydantic-ai/pull/7368) |
 
 </details>
 
