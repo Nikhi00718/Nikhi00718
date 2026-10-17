@@ -36,12 +36,20 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**60 merged · 26 active · 14 closed without merge**
+**62 merged · 25 active · 13 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): discard compaction observations after lifecycle changes](https://github.com/mvschwarz/openrig/pull/1365) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(usage): separate native session counter baselines](https://github.com/mvschwarz/openrig/pull/1348) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): read files with audio before the video stream](https://github.com/roboflow/supervision/pull/2746) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent coordinate overflow in mAP](https://github.com/roboflow/supervision/pull/2743) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Prevent sigma underflow from disabling YOLO26 pose RLE loss](https://github.com/ultralytics/ultralytics/pull/26713) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Filter RT-DETR validation predictions by requested classes](https://github.com/ultralytics/ultralytics/pull/26702) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): honor elastic transform padding modes](https://github.com/kornia/kornia/pull/5987) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): align Ultralytics masks after letterbox padding](https://github.com/roboflow/supervision/pull/2739) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate static rectangular exports at their recorded input shape](https://github.com/ultralytics/ultralytics/pull/26690) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix screenshot prediction with monitor and region parameters](https://github.com/ultralytics/ultralytics/pull/26664) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle singleton axes in antialiased resize](https://github.com/kornia/kornia/pull/5889) |
@@ -96,27 +104,21 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Stop `non_max_suppression()` from mutating input predictions](https://github.com/ultralytics/ultralytics/pull/26278) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix repeated `safe_download` of single-file ZIP archives](https://github.com/ultralytics/ultralytics/pull/26273) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Honor NumPy copy semantics in __array__ methods](https://github.com/scikit-image/scikit-image/pull/8279) |
-| [Avikisback/die-yield-prediction-baseline](https://github.com/Avikisback/die-yield-prediction-baseline) | [Multi-resolution fusion + per-wafer rate recovery: +7.8% AP, +4.3% fail F1 on Model B](https://github.com/Avikisback/die-yield-prediction-baseline/pull/1) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: release provider option values with the correct strings](https://github.com/microsoft/onnxruntime/pull/31828) |
-| [vllm-project/semantic-router](https://github.com/vllm-project/semantic-router) | [[Bug] Make vector-store shutdown generation-safe](https://github.com/vllm-project/semantic-router/pull/3057) |
-| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | [Fix shared default tokenizer in WordEmbeddings.from_text_file](https://github.com/huggingface/sentence-transformers/pull/3925) |
-| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | [fix: stop Agent retries after output limit](https://github.com/deepset-ai/haystack/pull/12303) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [Fix silent loss of high-channel NumPy dimensions (4.x)](https://github.com/opencv/opencv/pull/29709) |
 
 <details>
-<summary><strong>Active pull requests (26)</strong></summary>
+<summary><strong>Active pull requests (25)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): honor elastic transform padding modes](https://github.com/kornia/kornia/pull/5987) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Filter RT-DETR validation predictions by requested classes](https://github.com/ultralytics/ultralytics/pull/26702) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): align Ultralytics masks after letterbox padding](https://github.com/roboflow/supervision/pull/2739) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Correct stereo disparity-to-3D reprojection](https://github.com/colmap/colmap/pull/4861) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): reject independent readiness changes before compaction](https://github.com/mvschwarz/openrig/pull/1368) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve box geometry during tracking camera rotation](https://github.com/ultralytics/ultralytics/pull/26717) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(enhance): avoid overflow in integer min-max normalization](https://github.com/kornia/kornia/pull/6022) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Open SQLite databases with UTF-8 paths on Windows](https://github.com/colmap/colmap/pull/4850) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE 🤖🤖🤖](https://github.com/opencv/opencv/pull/30304) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning 🤖🤖🤖](https://github.com/opencv/opencv/pull/30303) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
-| [colmap/colmap](https://github.com/colmap/colmap) | [Open SQLite databases with UTF-8 paths on Windows](https://github.com/colmap/colmap/pull/4850) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [google/flatbuffers](https://github.com/google/flatbuffers) | [[Python] Fix FlexBuffers encoding outside the float32 range](https://github.com/google/flatbuffers/pull/9292) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
@@ -133,15 +135,15 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
 | [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: clean up string tensor conversion failures](https://github.com/microsoft/onnxruntime/pull/31827) |
-| [python-attrs/attrs](https://github.com/python-attrs/attrs) | [Resolve forward references in generated init annotations](https://github.com/python-attrs/attrs/pull/1619) |
 
 </details>
 
 <details>
-<summary><strong>Closed without merge (14)</strong></summary>
+<summary><strong>Closed without merge (13)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Prevent FP16 overflow in segmentation Dice loss](https://github.com/ultralytics/ultralytics/pull/26715) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the static batch from metadata-free ONNX graphs](https://github.com/ultralytics/ultralytics/pull/26622) |
 | [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
@@ -154,8 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | [Fix delete_original crash for regular checkpoint files](https://github.com/lyogavin/airllm/pull/362) |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | [fix(core): handle empty `group_ids` filters](https://github.com/langchain-ai/langchain/pull/40746) |
 | [pallets/click](https://github.com/pallets/click) | [[rejected AI] Show repeated option metavars in help](https://github.com/pallets/click/pull/3839) |
-| [requests-cache/requests-cache](https://github.com/requests-cache/requests-cache) | [Include session cookies in cache keys](https://github.com/requests-cache/requests-cache/pull/1188) |
-| [pallets/jinja](https://github.com/pallets/jinja) | [[rejected AI] Preserve empty strings in indent(first=True)](https://github.com/pallets/jinja/pull/2265) |
 
 </details>
 
