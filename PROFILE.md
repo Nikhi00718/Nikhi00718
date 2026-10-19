@@ -36,12 +36,21 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**64 merged · 24 active · 12 closed without merge**
+**66 merged · 21 active · 13 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): refuse a managed launch whose session name tmux would rename](https://github.com/mvschwarz/openrig/pull/1500) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): trim each state name in GET /api/queue/list](https://github.com/mvschwarz/openrig/pull/1501) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(enhance): avoid overflow in integer min-max normalization](https://github.com/kornia/kornia/pull/6022) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Align ImageNet subset folders with classifier class IDs](https://github.com/ultralytics/ultralytics/pull/26760) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Respect negative FastSAM points regardless of prompt order](https://github.com/ultralytics/ultralytics/pull/26759) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Scale 16-bit NumPy prediction inputs to 8 bits](https://github.com/ultralytics/ultralytics/pull/26741) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve queue work arriving during seat removal](https://github.com/mvschwarz/openrig/pull/1459) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): atomically promote inbox entries into queue work](https://github.com/mvschwarz/openrig/pull/1451) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): record fire receipts after a watchdog stops](https://github.com/mvschwarz/openrig/pull/1439) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve blocker wakes during delivery](https://github.com/mvschwarz/openrig/pull/1435) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve current custody on stale unclaim](https://github.com/mvschwarz/openrig/pull/1379) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Open SQLite databases with UTF-8 paths on Windows](https://github.com/colmap/colmap/pull/4850) |
@@ -99,24 +108,18 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [ultralytics 8.4.166 Support Pascal VOC-style palette and 16-bit PNG masks](https://github.com/ultralytics/ultralytics/pull/26426) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(io): keep RGB and grayscale opaque when loading as RGBA](https://github.com/kornia/kornia/pull/5077) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): load YOLO segmentation labels with trailing confidence](https://github.com/roboflow/supervision/pull/2626) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix flips of left-top-width-height instance boxes](https://github.com/ultralytics/ultralytics/pull/26397) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Reject fractional class IDs during dataset scans](https://github.com/ultralytics/ultralytics/pull/26367) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix multi-row CSV prediction sources](https://github.com/ultralytics/ultralytics/pull/26360) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix YOLOv9 distillation across teacher and student head layouts](https://github.com/ultralytics/ultralytics/pull/26338) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore PyTorch functions after failed exports](https://github.com/ultralytics/ultralytics/pull/26325) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Discover .yml dataset YAMLs in directories and archives](https://github.com/ultralytics/ultralytics/pull/26323) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve optimizer state when OOM auto-reduces batch size](https://github.com/ultralytics/ultralytics/pull/26284) |
 
 <details>
-<summary><strong>Active pull requests (24)</strong></summary>
+<summary><strong>Active pull requests (21)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Scale 16-bit NumPy prediction inputs to 8 bits](https://github.com/ultralytics/ultralytics/pull/26741) |
+| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent float16 overflow in box areas](https://github.com/roboflow/supervision/pull/2764) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): derive missing COCO areas from decoded masks](https://github.com/roboflow/supervision/pull/2763) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent overflow in NMM confidence weights](https://github.com/roboflow/supervision/pull/2753) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(cv2): preserve grayscale and BGRA images when encoding](https://github.com/roboflow/supervision/pull/2754) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): reject independent readiness changes before compaction](https://github.com/mvschwarz/openrig/pull/1368) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(enhance): avoid overflow in integer min-max normalization](https://github.com/kornia/kornia/pull/6022) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE 🤖🤖🤖](https://github.com/opencv/opencv/pull/30304) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning 🤖🤖🤖](https://github.com/opencv/opencv/pull/30303) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
@@ -132,18 +135,16 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: handle failed string tensor conversion safely](https://github.com/microsoft/onnxruntime/pull/31829) |
 | [scikit-learn-contrib/imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) | [[MRG] ENH Add native Polars input and output support for samplers](https://github.com/scikit-learn-contrib/imbalanced-learn/pull/1225) |
 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | [fix(scores): preserve sparse values in timeline buckets](https://github.com/langfuse/langfuse/pull/18025) |
-| [Lightning-AI/torchmetrics](https://github.com/Lightning-AI/torchmetrics) | [Fix WER and CER for empty reference transcripts](https://github.com/Lightning-AI/torchmetrics/pull/3517) |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | [[Bugfix] Return bound ephemeral port when VLLM_PORT is zero](https://github.com/vllm-project/vllm/pull/58696) |
-| [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [FIX handle non-subscriptable sparse input in ColumnTransformer](https://github.com/scikit-learn/scikit-learn/pull/34708) |
-| [shap/shap](https://github.com/shap/shap) | [FIX: Cache benchmark models per data split](https://github.com/shap/shap/pull/5120) |
 
 </details>
 
 <details>
-<summary><strong>Closed without merge (12)</strong></summary>
+<summary><strong>Closed without merge (13)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(losses): handle singleton axes in depth smoothness](https://github.com/kornia/kornia/pull/6093) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(filters): normalize half-precision kernels in float32](https://github.com/kornia/kornia/pull/6092) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Keep dynamic export top-k within runtime anchor counts](https://github.com/ultralytics/ultralytics/pull/26726) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Prevent FP16 overflow in segmentation Dice loss](https://github.com/ultralytics/ultralytics/pull/26715) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
@@ -155,7 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26331) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve class IDs in 16-bit segment mask conversion](https://github.com/ultralytics/ultralytics/pull/26410) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Include unannotated images in LVIS split lists](https://github.com/ultralytics/ultralytics/pull/26421) |
-| [lyogavin/airllm](https://github.com/lyogavin/airllm) | [Fix delete_original crash for regular checkpoint files](https://github.com/lyogavin/airllm/pull/362) |
 
 </details>
 
