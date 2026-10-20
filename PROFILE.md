@@ -36,28 +36,32 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**66 merged · 21 active · 13 closed without merge**
+**66 merged · 23 active · 11 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve rectangular classification INT8 calibration shapes](https://github.com/ultralytics/ultralytics/pull/26783) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(cv2): preserve grayscale and BGRA images when encoding](https://github.com/roboflow/supervision/pull/2754) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent overflow in NMM confidence weights](https://github.com/roboflow/supervision/pull/2753) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve queue work arriving during seat removal](https://github.com/mvschwarz/openrig/pull/1459) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): atomically promote inbox entries into queue work](https://github.com/mvschwarz/openrig/pull/1451) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): record fire receipts after a watchdog stops](https://github.com/mvschwarz/openrig/pull/1439) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve blocker wakes during delivery](https://github.com/mvschwarz/openrig/pull/1435) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve current custody on stale unclaim](https://github.com/mvschwarz/openrig/pull/1379) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): discard compaction observations after lifecycle changes](https://github.com/mvschwarz/openrig/pull/1365) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(usage): separate native session counter baselines](https://github.com/mvschwarz/openrig/pull/1348) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): discard watchdog evaluations after job retirement](https://github.com/mvschwarz/openrig/pull/1325) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): refuse a managed launch whose session name tmux would rename](https://github.com/mvschwarz/openrig/pull/1500) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): trim each state name in GET /api/queue/list](https://github.com/mvschwarz/openrig/pull/1501) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(enhance): avoid overflow in integer min-max normalization](https://github.com/kornia/kornia/pull/6022) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Align ImageNet subset folders with classifier class IDs](https://github.com/ultralytics/ultralytics/pull/26760) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Respect negative FastSAM points regardless of prompt order](https://github.com/ultralytics/ultralytics/pull/26759) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Scale 16-bit NumPy prediction inputs to 8 bits](https://github.com/ultralytics/ultralytics/pull/26741) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve queue work arriving during seat removal](https://github.com/mvschwarz/openrig/pull/1459) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): atomically promote inbox entries into queue work](https://github.com/mvschwarz/openrig/pull/1451) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): record fire receipts after a watchdog stops](https://github.com/mvschwarz/openrig/pull/1439) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve blocker wakes during delivery](https://github.com/mvschwarz/openrig/pull/1435) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): preserve current custody on stale unclaim](https://github.com/mvschwarz/openrig/pull/1379) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Open SQLite databases with UTF-8 paths on Windows](https://github.com/colmap/colmap/pull/4850) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve box geometry during tracking camera rotation](https://github.com/ultralytics/ultralytics/pull/26717) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Correct stereo disparity-to-3D reprojection](https://github.com/colmap/colmap/pull/4861) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): discard compaction observations after lifecycle changes](https://github.com/mvschwarz/openrig/pull/1365) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(usage): separate native session counter baselines](https://github.com/mvschwarz/openrig/pull/1348) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): read files with audio before the video stream](https://github.com/roboflow/supervision/pull/2746) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent coordinate overflow in mAP](https://github.com/roboflow/supervision/pull/2743) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Prevent sigma underflow from disabling YOLO26 pose RLE loss](https://github.com/ultralytics/ultralytics/pull/26713) |
@@ -69,7 +73,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle singleton axes in antialiased resize](https://github.com/kornia/kornia/pull/5889) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(contrib): accept detection tensors in visualization](https://github.com/kornia/kornia/pull/5945) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(annotators): preserve grayscale channel axis in blur and pixelation](https://github.com/roboflow/supervision/pull/2725) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): discard watchdog evaluations after job retirement](https://github.com/mvschwarz/openrig/pull/1325) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized (5.x)](https://github.com/opencv/opencv/pull/30287) |
@@ -105,23 +108,23 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | [fix(clone): keep end-of-buffer preview loops within audio](https://github.com/debpalash/VoiceStudio/pull/2429) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix RT-DETR contrastive denoising group indices](https://github.com/ultralytics/ultralytics/pull/26465) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix CutMix skipping every paste on PNG semantic mask datasets](https://github.com/ultralytics/ultralytics/pull/26439) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [ultralytics 8.4.166 Support Pascal VOC-style palette and 16-bit PNG masks](https://github.com/ultralytics/ultralytics/pull/26426) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(io): keep RGB and grayscale opaque when loading as RGBA](https://github.com/kornia/kornia/pull/5077) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): load YOLO segmentation labels with trailing confidence](https://github.com/roboflow/supervision/pull/2626) |
 
 <details>
-<summary><strong>Active pull requests (21)</strong></summary>
+<summary><strong>Active pull requests (23)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent float16 overflow in box areas](https://github.com/roboflow/supervision/pull/2764) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): recover workflow wakes through their durable intents](https://github.com/mvschwarz/openrig/pull/1582) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): give recurring watchdog fires distinct delivery identities](https://github.com/mvschwarz/openrig/pull/1583) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Handle partial image overlap in point-based alignment](https://github.com/colmap/colmap/pull/4881) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve target coordinates when downsampling homography warps](https://github.com/colmap/colmap/pull/4880) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve floating-point SAM mask prompt logits](https://github.com/ultralytics/ultralytics/pull/26794) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): derive missing COCO areas from decoded masks](https://github.com/roboflow/supervision/pull/2763) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent overflow in NMM confidence weights](https://github.com/roboflow/supervision/pull/2753) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(cv2): preserve grayscale and BGRA images when encoding](https://github.com/roboflow/supervision/pull/2754) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent float16 overflow in box areas](https://github.com/roboflow/supervision/pull/2764) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning](https://github.com/opencv/opencv/pull/30303) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE](https://github.com/opencv/opencv/pull/30304) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): reject independent readiness changes before compaction](https://github.com/mvschwarz/openrig/pull/1368) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE 🤖🤖🤖](https://github.com/opencv/opencv/pull/30304) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning 🤖🤖🤖](https://github.com/opencv/opencv/pull/30303) |
+| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
@@ -134,12 +137,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: handle failed string tensor conversion safely](https://github.com/microsoft/onnxruntime/pull/31829) |
 | [scikit-learn-contrib/imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) | [[MRG] ENH Add native Polars input and output support for samplers](https://github.com/scikit-learn-contrib/imbalanced-learn/pull/1225) |
-| [langfuse/langfuse](https://github.com/langfuse/langfuse) | [fix(scores): preserve sparse values in timeline buckets](https://github.com/langfuse/langfuse/pull/18025) |
 
 </details>
 
 <details>
-<summary><strong>Closed without merge (13)</strong></summary>
+<summary><strong>Closed without merge (11)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
@@ -154,8 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore call-time directory in WorkingDirectory decorators](https://github.com/ultralytics/ultralytics/pull/26572) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate pose boxes during dataset label scans](https://github.com/ultralytics/ultralytics/pull/26511) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26331) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve class IDs in 16-bit segment mask conversion](https://github.com/ultralytics/ultralytics/pull/26410) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Include unannotated images in LVIS split lists](https://github.com/ultralytics/ultralytics/pull/26421) |
 
 </details>
 
