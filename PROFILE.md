@@ -36,12 +36,26 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**73 merged · 17 active · 10 closed without merge**
+**82 merged · 8 active · 10 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ui): preserve file drafts and their revision during refresh](https://github.com/mvschwarz/openrig/pull/1758) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(stream): drain replay arrivals before switching to live writes](https://github.com/mvschwarz/openrig/pull/1757) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [perf(usage): group cost history without copying each prefix](https://github.com/mvschwarz/openrig/pull/1756) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): say a rig wasn't found in rig ps --host --rig, and list it in the exit codes](https://github.com/mvschwarz/openrig/pull/1706) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): size rig snapshot list columns to their values](https://github.com/mvschwarz/openrig/pull/1707) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): say a rig wasn't found when rig ps --rig names no rig](https://github.com/mvschwarz/openrig/pull/1690) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): resolve a rig name in the MCP tools that take a rig](https://github.com/mvschwarz/openrig/pull/1689) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ps): scope the --host rig view by --rig](https://github.com/mvschwarz/openrig/pull/1698) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig archive, rig unarchive and rig release](https://github.com/mvschwarz/openrig/pull/1688) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): report a shared rig name as rig_ambiguous JSON in rig restore status --json](https://github.com/mvschwarz/openrig/pull/1686) |
+| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE](https://github.com/opencv/opencv/pull/30304) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig shrink and rig expand](https://github.com/mvschwarz/openrig/pull/1683) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): skip the thin-transcript note when a small --tail returns every line asked for](https://github.com/mvschwarz/openrig/pull/1682) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig snapshot, snapshot list, export and restore --rig](https://github.com/mvschwarz/openrig/pull/1681) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): reject independent readiness changes before compaction](https://github.com/mvschwarz/openrig/pull/1368) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(terminal): number a re-opened Herdr view instead of duplicating its name](https://github.com/mvschwarz/openrig/pull/1637) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(refocus): cap the failure reason in a retried refocus label](https://github.com/mvschwarz/openrig/pull/1651) |
@@ -110,34 +124,20 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [opencv/opencv](https://github.com/opencv/opencv) | [core(persistence): emit valid JSON string escapes](https://github.com/opencv/opencv/pull/30141) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): make launch readiness window configurable](https://github.com/mvschwarz/openrig/pull/643) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Add rotation-aligned OBB crops to save_crop](https://github.com/ultralytics/ultralytics/pull/26486) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): recover stale same-name rig generations](https://github.com/mvschwarz/openrig/pull/513) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix RT-DETR Hungarian matching precision under AMP](https://github.com/ultralytics/ultralytics/pull/26475) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): accept Transformers semantic outputs with scores](https://github.com/roboflow/supervision/pull/2643) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(utils): clip crop bounds before integer conversion](https://github.com/roboflow/supervision/pull/2642) |
 
 <details>
-<summary><strong>Active pull requests (17)</strong></summary>
+<summary><strong>Active pull requests (8)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore torchvision classification training and checkpoint resume](https://github.com/ultralytics/ultralytics/pull/26808) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE](https://github.com/opencv/opencv/pull/30304) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore torchvision classification training and checkpoint resume](https://github.com/ultralytics/ultralytics/pull/26808) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Handle partial image overlap in point-based alignment](https://github.com/colmap/colmap/pull/4881) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Preserve target coordinates when downsampling homography warps](https://github.com/colmap/colmap/pull/4880) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning](https://github.com/opencv/opencv/pull/30303) |
 | [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
-| [google/flatbuffers](https://github.com/google/flatbuffers) | [[Python] Fix FlexBuffers encoding outside the float32 range](https://github.com/google/flatbuffers/pull/9292) |
-| [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Fix sparse initializer type for SparseToDenseMatMul](https://github.com/microsoft/onnxruntime/pull/31830) |
-| [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
-| [future-agi/future-agi](https://github.com/future-agi/future-agi) | [fix(gateway): preserve async A2A terminal states](https://github.com/future-agi/future-agi/pull/2196) |
-| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | [fix: handle Yahoo Finance rate limits in stock agent](https://github.com/ashishpatel26/500-AI-Agents-Projects/pull/179) |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Java: handle failed string tensor conversion safely](https://github.com/microsoft/onnxruntime/pull/31829) |
 
 </details>
 
@@ -146,6 +146,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
+| [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(losses): handle singleton axes in depth smoothness](https://github.com/kornia/kornia/pull/6093) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(filters): normalize half-precision kernels in float32](https://github.com/kornia/kornia/pull/6092) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Keep dynamic export top-k within runtime anchor counts](https://github.com/ultralytics/ultralytics/pull/26726) |
@@ -155,7 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tracing): preserve message parts and embedded tool calls](https://github.com/BerriAI/litellm/pull/44078) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore call-time directory in WorkingDirectory decorators](https://github.com/ultralytics/ultralytics/pull/26572) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Validate pose boxes during dataset label scans](https://github.com/ultralytics/ultralytics/pull/26511) |
 
 </details>
 
