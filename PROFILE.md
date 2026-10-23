@@ -36,12 +36,15 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**82 merged · 8 active · 10 closed without merge**
+**84 merged · 6 active · 10 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
+| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): report path data records as route candidates](https://github.com/morluto/rea/pull/6360) |
+| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve target coordinates when downsampling homography warps](https://github.com/colmap/colmap/pull/4880) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ui): preserve file drafts and their revision during refresh](https://github.com/mvschwarz/openrig/pull/1758) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(stream): drain replay arrivals before switching to live writes](https://github.com/mvschwarz/openrig/pull/1757) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [perf(usage): group cost history without copying each prefix](https://github.com/mvschwarz/openrig/pull/1756) |
@@ -123,20 +126,17 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): support non-contiguous boxes in compute_area](https://github.com/kornia/kornia/pull/5468) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [core(persistence): emit valid JSON string escapes](https://github.com/opencv/opencv/pull/30141) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): make launch readiness window configurable](https://github.com/mvschwarz/openrig/pull/643) |
 
 <details>
-<summary><strong>Active pull requests (8)</strong></summary>
+<summary><strong>Active pull requests (6)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore torchvision classification training and checkpoint resume](https://github.com/ultralytics/ultralytics/pull/26808) |
-| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Handle partial image overlap in point-based alignment](https://github.com/colmap/colmap/pull/4881) |
-| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve target coordinates when downsampling homography warps](https://github.com/colmap/colmap/pull/4880) |
+| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning](https://github.com/opencv/opencv/pull/30303) |
-| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 
 </details>
