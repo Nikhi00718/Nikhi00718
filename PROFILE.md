@@ -42,33 +42,36 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(transport): guard sends at visible Claude MCP prompts](https://github.com/mvschwarz/openrig/pull/1864) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve classification resume image size and remove the broken torchvision shortcut](https://github.com/ultralytics/ultralytics/pull/26808) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): avoid Claude status line temp collisions](https://github.com/mvschwarz/openrig/pull/1865) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): size rig snapshot list columns to their values](https://github.com/mvschwarz/openrig/pull/1707) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): say a rig wasn't found in rig ps --host --rig, and list it in the exit codes](https://github.com/mvschwarz/openrig/pull/1706) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): say a rig wasn't found when rig ps --rig names no rig](https://github.com/mvschwarz/openrig/pull/1690) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): resolve a rig name in the MCP tools that take a rig](https://github.com/mvschwarz/openrig/pull/1689) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig archive, rig unarchive and rig release](https://github.com/mvschwarz/openrig/pull/1688) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): report a shared rig name as rig_ambiguous JSON in rig restore status --json](https://github.com/mvschwarz/openrig/pull/1686) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig shrink and rig expand](https://github.com/mvschwarz/openrig/pull/1683) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): skip the thin-transcript note when a small --tail returns every line asked for](https://github.com/mvschwarz/openrig/pull/1682) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(refocus): cap the failure reason in a retried refocus label](https://github.com/mvschwarz/openrig/pull/1651) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(terminal): number a re-opened Herdr view instead of duplicating its name](https://github.com/mvschwarz/openrig/pull/1637) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(refocus): label a retried post-compaction refocus as a retry](https://github.com/mvschwarz/openrig/pull/1635) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): report workflow wake recovery attempts truthfully](https://github.com/mvschwarz/openrig/pull/1626) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): give recurring watchdog fires distinct delivery identities](https://github.com/mvschwarz/openrig/pull/1583) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): recover workflow wakes through their durable intents](https://github.com/mvschwarz/openrig/pull/1582) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): reject independent readiness changes before compaction](https://github.com/mvschwarz/openrig/pull/1368) |
 | [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
 | [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): report path data records as route candidates](https://github.com/morluto/rea/pull/6360) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Preserve target coordinates when downsampling homography warps](https://github.com/colmap/colmap/pull/4880) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ui): preserve file drafts and their revision during refresh](https://github.com/mvschwarz/openrig/pull/1758) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(stream): drain replay arrivals before switching to live writes](https://github.com/mvschwarz/openrig/pull/1757) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [perf(usage): group cost history without copying each prefix](https://github.com/mvschwarz/openrig/pull/1756) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): say a rig wasn't found in rig ps --host --rig, and list it in the exit codes](https://github.com/mvschwarz/openrig/pull/1706) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): size rig snapshot list columns to their values](https://github.com/mvschwarz/openrig/pull/1707) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): say a rig wasn't found when rig ps --rig names no rig](https://github.com/mvschwarz/openrig/pull/1690) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): resolve a rig name in the MCP tools that take a rig](https://github.com/mvschwarz/openrig/pull/1689) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ps): scope the --host rig view by --rig](https://github.com/mvschwarz/openrig/pull/1698) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig archive, rig unarchive and rig release](https://github.com/mvschwarz/openrig/pull/1688) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): report a shared rig name as rig_ambiguous JSON in rig restore status --json](https://github.com/mvschwarz/openrig/pull/1686) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE](https://github.com/opencv/opencv/pull/30304) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig shrink and rig expand](https://github.com/mvschwarz/openrig/pull/1683) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): skip the thin-transcript note when a small --tail returns every line asked for](https://github.com/mvschwarz/openrig/pull/1682) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig snapshot, snapshot list, export and restore --rig](https://github.com/mvschwarz/openrig/pull/1681) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): reject independent readiness changes before compaction](https://github.com/mvschwarz/openrig/pull/1368) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(terminal): number a re-opened Herdr view instead of duplicating its name](https://github.com/mvschwarz/openrig/pull/1637) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(refocus): cap the failure reason in a retried refocus label](https://github.com/mvschwarz/openrig/pull/1651) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(refocus): label a retried post-compaction refocus as a retry](https://github.com/mvschwarz/openrig/pull/1635) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve floating-point SAM mask prompt logits](https://github.com/ultralytics/ultralytics/pull/26794) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent float16 overflow in box areas](https://github.com/roboflow/supervision/pull/2764) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): recover workflow wakes through their durable intents](https://github.com/mvschwarz/openrig/pull/1582) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): report workflow wake recovery attempts truthfully](https://github.com/mvschwarz/openrig/pull/1626) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): derive missing COCO areas from decoded masks](https://github.com/roboflow/supervision/pull/2763) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): give recurring watchdog fires distinct delivery identities](https://github.com/mvschwarz/openrig/pull/1583) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): trim each state name in GET /api/queue/list](https://github.com/mvschwarz/openrig/pull/1501) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): refuse a managed launch whose session name tmux would rename](https://github.com/mvschwarz/openrig/pull/1500) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve rectangular classification INT8 calibration shapes](https://github.com/ultralytics/ultralytics/pull/26783) |
@@ -123,17 +126,14 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(key_points): handle empty Transformers pose results](https://github.com/roboflow/supervision/pull/2671) |
 | [conda/conda-pack](https://github.com/conda/conda-pack) | [Add PowerShell activation scripts](https://github.com/conda/conda-pack/pull/505) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent integer overflow in anchor coordinates](https://github.com/roboflow/supervision/pull/2660) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): support non-contiguous boxes in compute_area](https://github.com/kornia/kornia/pull/5468) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [core(persistence): emit valid JSON string escapes](https://github.com/opencv/opencv/pull/30141) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): expire LineZone history on untracked frames](https://github.com/roboflow/supervision/pull/2644) |
 
 <details>
 <summary><strong>Active pull requests (6)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): verify Claude handover packet submission](https://github.com/mvschwarz/openrig/pull/1863) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Restore torchvision classification training and checkpoint resume](https://github.com/ultralytics/ultralytics/pull/26808) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Handle partial image overlap in point-based alignment](https://github.com/colmap/colmap/pull/4881) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning](https://github.com/opencv/opencv/pull/30303) |
