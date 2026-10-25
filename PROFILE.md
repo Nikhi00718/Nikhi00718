@@ -42,9 +42,12 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(transport): guard sends at visible Claude MCP prompts](https://github.com/mvschwarz/openrig/pull/1864) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve classification resume image size and remove the broken torchvision shortcut](https://github.com/ultralytics/ultralytics/pull/26808) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): avoid Claude status line temp collisions](https://github.com/mvschwarz/openrig/pull/1865) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(transport): guard sends at visible Claude MCP prompts](https://github.com/mvschwarz/openrig/pull/1864) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ui): preserve file drafts and their revision during refresh](https://github.com/mvschwarz/openrig/pull/1758) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(stream): drain replay arrivals before switching to live writes](https://github.com/mvschwarz/openrig/pull/1757) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [perf(usage): group cost history without copying each prefix](https://github.com/mvschwarz/openrig/pull/1756) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve classification resume image size and remove the broken torchvision shortcut](https://github.com/ultralytics/ultralytics/pull/26808) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): size rig snapshot list columns to their values](https://github.com/mvschwarz/openrig/pull/1707) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): say a rig wasn't found in rig ps --host --rig, and list it in the exit codes](https://github.com/mvschwarz/openrig/pull/1706) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): say a rig wasn't found when rig ps --rig names no rig](https://github.com/mvschwarz/openrig/pull/1690) |
@@ -63,9 +66,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
 | [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): report path data records as route candidates](https://github.com/morluto/rea/pull/6360) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Preserve target coordinates when downsampling homography warps](https://github.com/colmap/colmap/pull/4880) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ui): preserve file drafts and their revision during refresh](https://github.com/mvschwarz/openrig/pull/1758) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(stream): drain replay arrivals before switching to live writes](https://github.com/mvschwarz/openrig/pull/1757) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [perf(usage): group cost history without copying each prefix](https://github.com/mvschwarz/openrig/pull/1756) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ps): scope the --host rig view by --rig](https://github.com/mvschwarz/openrig/pull/1698) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE](https://github.com/opencv/opencv/pull/30304) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig snapshot, snapshot list, export and restore --rig](https://github.com/mvschwarz/openrig/pull/1681) |
