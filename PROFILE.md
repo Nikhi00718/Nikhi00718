@@ -36,17 +36,18 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**87 merged · 4 active · 9 closed without merge**
+**88 merged · 4 active · 8 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(review): keep asks to and parks on a person's own address in NEEDS YOU](https://github.com/mvschwarz/openrig/pull/2108) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): verify Claude handover packet submission](https://github.com/mvschwarz/openrig/pull/1863) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): exclude artifacts with unclosed frontmatter](https://github.com/mvschwarz/openrig/pull/2016) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(slack): a park on a person's own address answers only from a reply after its question](https://github.com/mvschwarz/openrig/pull/2106) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(queue): keep a park's summary and evidence when it parks on a registered person](https://github.com/mvschwarz/openrig/pull/2107) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(slack): a park on a person's own address answers only from a reply after its question](https://github.com/mvschwarz/openrig/pull/2106) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): exclude artifacts with unclosed frontmatter](https://github.com/mvschwarz/openrig/pull/2016) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): verify Claude handover packet submission](https://github.com/mvschwarz/openrig/pull/1863) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): release unread notification response bodies](https://github.com/mvschwarz/openrig/pull/2172) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): preserve stream connection state across pages](https://github.com/mvschwarz/openrig/pull/2014) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ps): scope the --host rig view by --rig](https://github.com/mvschwarz/openrig/pull/1698) |
@@ -143,7 +144,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (9)</strong></summary>
+<summary><strong>Closed without merge (8)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
@@ -155,7 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the static batch from metadata-free ONNX graphs](https://github.com/ultralytics/ultralytics/pull/26622) |
 | [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tracing): preserve message parts and embedded tool calls](https://github.com/BerriAI/litellm/pull/44078) |
 
 </details>
 
