@@ -36,18 +36,21 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**88 merged · 4 active · 8 closed without merge**
+**88 merged · 6 active · 6 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when rig table cells are cut to width](https://github.com/mvschwarz/openrig/pull/2253) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): release unread notification response bodies](https://github.com/mvschwarz/openrig/pull/2172) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when health and config rows are cut to width](https://github.com/mvschwarz/openrig/pull/2252) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): read rig status snapshot times as UTC](https://github.com/mvschwarz/openrig/pull/2251) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(review): keep asks to and parks on a person's own address in NEEDS YOU](https://github.com/mvschwarz/openrig/pull/2108) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(queue): keep a park's summary and evidence when it parks on a registered person](https://github.com/mvschwarz/openrig/pull/2107) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(slack): a park on a person's own address answers only from a reply after its question](https://github.com/mvschwarz/openrig/pull/2106) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): exclude artifacts with unclosed frontmatter](https://github.com/mvschwarz/openrig/pull/2016) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): verify Claude handover packet submission](https://github.com/mvschwarz/openrig/pull/1863) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): release unread notification response bodies](https://github.com/mvschwarz/openrig/pull/2172) |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): preserve stream connection state across pages](https://github.com/mvschwarz/openrig/pull/2014) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ps): scope the --host rig view by --rig](https://github.com/mvschwarz/openrig/pull/1698) |
@@ -127,24 +130,23 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(image): honor images per row in make_grid](https://github.com/kornia/kornia/pull/5745) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Preserve palette and CMYK colors in panorama rendering](https://github.com/colmap/colmap/pull/4840) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix confidence-ordered validation matching for alternate targets](https://github.com/ultralytics/ultralytics/pull/26616) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(feature): keep SMNN mutual matches in integer space](https://github.com/kornia/kornia/pull/5687) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve nested images in classification auto-split](https://github.com/ultralytics/ultralytics/pull/26598) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(classification): reject negative top-k counts](https://github.com/roboflow/supervision/pull/2695) |
 
 <details>
-<summary><strong>Active pull requests (4)</strong></summary>
+<summary><strong>Active pull requests (6)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the first frame and every vid_stride-th frame after it in video files](https://github.com/ultralytics/ultralytics/pull/26940) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Predict and validate dynamic exports at their export image size](https://github.com/ultralytics/ultralytics/pull/26939) |
+| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Handle partial image overlap in point-based alignment](https://github.com/colmap/colmap/pull/4881) |
-| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning](https://github.com/opencv/opencv/pull/30303) |
 
 </details>
 
 <details>
-<summary><strong>Closed without merge (8)</strong></summary>
+<summary><strong>Closed without merge (6)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
@@ -154,8 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Keep dynamic export top-k within runtime anchor counts](https://github.com/ultralytics/ultralytics/pull/26726) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Prevent FP16 overflow in segmentation Dice loss](https://github.com/ultralytics/ultralytics/pull/26715) |
 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the static batch from metadata-free ONNX graphs](https://github.com/ultralytics/ultralytics/pull/26622) |
-| [ray-project/ray](https://github.com/ray-project/ray) | [[Data] Skip absent partition keys during type conversion](https://github.com/ray-project/ray/pull/66693) |
 
 </details>
 
