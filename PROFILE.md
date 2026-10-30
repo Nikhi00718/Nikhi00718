@@ -36,16 +36,21 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**88 merged · 6 active · 6 closed without merge**
+**84 merged · 9 active · 7 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when rig table cells are cut to width](https://github.com/mvschwarz/openrig/pull/2253) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): release unread notification response bodies](https://github.com/mvschwarz/openrig/pull/2172) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when health and config rows are cut to width](https://github.com/mvschwarz/openrig/pull/2252) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when rig table cells are cut to width](https://github.com/mvschwarz/openrig/pull/2253) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): read rig status snapshot times as UTC](https://github.com/mvschwarz/openrig/pull/2251) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Default dynamic exports to their export imgsz and start strided video reads at frame 0](https://github.com/ultralytics/ultralytics/pull/26939) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(mcp): cut rig_context_get and rig_artifact_read text between whole characters](https://github.com/mvschwarz/openrig/pull/2268) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): say an agent spec's seats weren't read instead of none](https://github.com/mvschwarz/openrig/pull/2266) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): read the rig's Recent window on a pod's Recent tab](https://github.com/mvschwarz/openrig/pull/2265) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): read a seat's recently finished items on its agent page](https://github.com/mvschwarz/openrig/pull/2264) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): release unread notification response bodies](https://github.com/mvschwarz/openrig/pull/2172) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(review): keep asks to and parks on a person's own address in NEEDS YOU](https://github.com/mvschwarz/openrig/pull/2108) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(queue): keep a park's summary and evidence when it parks on a registered person](https://github.com/mvschwarz/openrig/pull/2107) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(slack): a park on a person's own address answers only from a reply after its question](https://github.com/mvschwarz/openrig/pull/2106) |
@@ -121,23 +126,17 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Apply EXIF orientation to PIL prediction inputs](https://github.com/ultralytics/ultralytics/pull/26650) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Keep image observation counts consistent when resizing points](https://github.com/colmap/colmap/pull/4853) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle non-contiguous and empty video keypoints](https://github.com/kornia/kornia/pull/5840) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): prevent integer overflow in object size categories](https://github.com/roboflow/supervision/pull/2713) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve non-ASCII class names and paths in Windows logs](https://github.com/ultralytics/ultralytics/pull/26626) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(color): stop RgbToHls exporting an all-zero ONNX graph](https://github.com/kornia/kornia/pull/5790) |
-| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve image names with spaces when reading text models](https://github.com/colmap/colmap/pull/4849) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): keep perspective warps finite at extreme scales](https://github.com/kornia/kornia/pull/5752) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(image): honor images per row in make_grid](https://github.com/kornia/kornia/pull/5745) |
-| [colmap/colmap](https://github.com/colmap/colmap) | [Preserve palette and CMYK colors in panorama rendering](https://github.com/colmap/colmap/pull/4840) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Fix confidence-ordered validation matching for alternate targets](https://github.com/ultralytics/ultralytics/pull/26616) |
 
 <details>
-<summary><strong>Active pull requests (6)</strong></summary>
+<summary><strong>Active pull requests (9)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the first frame and every vid_stride-th frame after it in video files](https://github.com/ultralytics/ultralytics/pull/26940) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Predict and validate dynamic exports at their export image size](https://github.com/ultralytics/ultralytics/pull/26939) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(losses): bound MPS mutual-information histogram contractions](https://github.com/kornia/kornia/pull/6412) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): preserve finite corners across overflowing box spans](https://github.com/roboflow/supervision/pull/2853) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): retain valid Qwen boxes beside malformed predictions](https://github.com/roboflow/supervision/pull/2851) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): preserve punctuation in PaliGemma class labels](https://github.com/roboflow/supervision/pull/2852) |
+| [kornia/kornia](https://github.com/kornia/kornia) | [feat(geometry): broadcast singleton rotation matrix batches](https://github.com/kornia/kornia/pull/6413) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Handle partial image overlap in point-based alignment](https://github.com/colmap/colmap/pull/4881) |
@@ -146,10 +145,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (6)</strong></summary>
+<summary><strong>Closed without merge (7)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the first frame and every vid_stride-th frame after it in video files](https://github.com/ultralytics/ultralytics/pull/26940) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(losses): handle singleton axes in depth smoothness](https://github.com/kornia/kornia/pull/6093) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(filters): normalize half-precision kernels in float32](https://github.com/kornia/kornia/pull/6092) |
