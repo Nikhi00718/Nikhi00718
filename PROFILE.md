@@ -36,14 +36,14 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**84 merged · 9 active · 7 closed without merge**
+**84 merged · 8 active · 8 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when health and config rows are cut to width](https://github.com/mvschwarz/openrig/pull/2252) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when rig table cells are cut to width](https://github.com/mvschwarz/openrig/pull/2253) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when health and config rows are cut to width](https://github.com/mvschwarz/openrig/pull/2252) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): read rig status snapshot times as UTC](https://github.com/mvschwarz/openrig/pull/2251) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Default dynamic exports to their export imgsz and start strided video reads at frame 0](https://github.com/ultralytics/ultralytics/pull/26939) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(mcp): cut rig_context_get and rig_artifact_read text between whole characters](https://github.com/mvschwarz/openrig/pull/2268) |
@@ -128,11 +128,10 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [colmap/colmap](https://github.com/colmap/colmap) | [Keep image observation counts consistent when resizing points](https://github.com/colmap/colmap/pull/4853) |
 
 <details>
-<summary><strong>Active pull requests (9)</strong></summary>
+<summary><strong>Active pull requests (8)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [kornia/kornia](https://github.com/kornia/kornia) | [fix(losses): bound MPS mutual-information histogram contractions](https://github.com/kornia/kornia/pull/6412) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): preserve finite corners across overflowing box spans](https://github.com/roboflow/supervision/pull/2853) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): retain valid Qwen boxes beside malformed predictions](https://github.com/roboflow/supervision/pull/2851) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): preserve punctuation in PaliGemma class labels](https://github.com/roboflow/supervision/pull/2852) |
@@ -145,10 +144,11 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (7)</strong></summary>
+<summary><strong>Closed without merge (8)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [kornia/kornia](https://github.com/kornia/kornia) | [fix(losses): bound MPS mutual-information histogram contractions](https://github.com/kornia/kornia/pull/6412) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read the first frame and every vid_stride-th frame after it in video files](https://github.com/ultralytics/ultralytics/pull/26940) |
 | [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) | [rgbd: avoid unaligned SIMD stores in LineMOD](https://github.com/opencv/opencv_contrib/pull/4187) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(losses): handle singleton axes in depth smoothness](https://github.com/kornia/kornia/pull/6093) |
