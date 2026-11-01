@@ -36,7 +36,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**84 merged · 8 active · 8 closed without merge**
+**83 merged · 9 active · 8 closed without merge**
 
 ### Merged
 
@@ -125,18 +125,18 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read NDJSON datasets with UTF-8 encoding](https://github.com/ultralytics/ultralytics/pull/26681) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Apply EXIF orientation to PIL prediction inputs](https://github.com/ultralytics/ultralytics/pull/26650) |
-| [colmap/colmap](https://github.com/colmap/colmap) | [Keep image observation counts consistent when resizing points](https://github.com/colmap/colmap/pull/4853) |
 
 <details>
-<summary><strong>Active pull requests (8)</strong></summary>
+<summary><strong>Active pull requests (9)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): preserve finite corners across overflowing box spans](https://github.com/roboflow/supervision/pull/2853) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): retain valid Qwen boxes beside malformed predictions](https://github.com/roboflow/supervision/pull/2851) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): preserve punctuation in PaliGemma class labels](https://github.com/roboflow/supervision/pull/2852) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(geometry): broadcast singleton rotation matrix batches](https://github.com/kornia/kornia/pull/6413) |
-| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Handle partial image overlap in point-based alignment](https://github.com/colmap/colmap/pull/4881) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: preserve scalar precision in 16-bit histogram binning](https://github.com/opencv/opencv/pull/30303) |
