@@ -36,12 +36,17 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**83 merged · 9 active · 8 closed without merge**
+**84 merged · 9 active · 7 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(transport): stop reporting delivery on a broadcast that reached nobody](https://github.com/mvschwarz/openrig/pull/2359) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): normalize documented --priority values and note the rest](https://github.com/mvschwarz/openrig/pull/2358) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): finish a default rig export beside an existing rig.yaml](https://github.com/mvschwarz/openrig/pull/2356) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): warn on an unknown --state in rig queue list](https://github.com/mvschwarz/openrig/pull/2357) |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [`ultralytics 8.4.198` Save NumPy float64 values as numbers in YAML files](https://github.com/ultralytics/ultralytics/pull/26993) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when rig table cells are cut to width](https://github.com/mvschwarz/openrig/pull/2253) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): keep emoji whole when health and config rows are cut to width](https://github.com/mvschwarz/openrig/pull/2252) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): read rig status snapshot times as UTC](https://github.com/mvschwarz/openrig/pull/2251) |
@@ -121,21 +126,17 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(annotators): preserve grayscale channel axis in blur and pixelation](https://github.com/roboflow/supervision/pull/2725) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized (5.x)](https://github.com/opencv/opencv/pull/30287) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Read NDJSON datasets with UTF-8 encoding](https://github.com/ultralytics/ultralytics/pull/26681) |
-| [kornia/kornia](https://github.com/kornia/kornia) | [feat(image): add rectangle outline width](https://github.com/kornia/kornia/pull/5093) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Apply EXIF orientation to PIL prediction inputs](https://github.com/ultralytics/ultralytics/pull/26650) |
 
 <details>
 <summary><strong>Active pull requests (9)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): preserve finite corners across overflowing box spans](https://github.com/roboflow/supervision/pull/2853) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): retain valid Qwen boxes beside malformed predictions](https://github.com/roboflow/supervision/pull/2851) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): preserve punctuation in PaliGemma class labels](https://github.com/roboflow/supervision/pull/2852) |
+| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(geometry): broadcast singleton rotation matrix batches](https://github.com/kornia/kornia/pull/6413) |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Handle partial image overlap in point-based alignment](https://github.com/colmap/colmap/pull/4881) |
@@ -144,7 +145,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 </details>
 
 <details>
-<summary><strong>Closed without merge (8)</strong></summary>
+<summary><strong>Closed without merge (7)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
@@ -155,7 +156,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(filters): normalize half-precision kernels in float32](https://github.com/kornia/kornia/pull/6092) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Keep dynamic export top-k within runtime anchor counts](https://github.com/ultralytics/ultralytics/pull/26726) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Prevent FP16 overflow in segmentation Dice loss](https://github.com/ultralytics/ultralytics/pull/26715) |
-| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | [Prevent LayerNorm fusion from selecting removed outputs](https://github.com/microsoft/onnxruntime/pull/31831) |
 
 </details>
 
