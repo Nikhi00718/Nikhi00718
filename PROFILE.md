@@ -36,12 +36,16 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**84 merged · 9 active · 7 closed without merge**
+**86 merged · 7 active · 7 closed without merge**
 
 ### Merged
 
 | Project | Contribution |
 | --- | --- |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): preserve punctuation in PaliGemma class labels](https://github.com/roboflow/supervision/pull/2852) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): retain valid Qwen boxes beside malformed predictions](https://github.com/roboflow/supervision/pull/2851) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): pick JUST FINISHED by finish time so an old item closed last shows](https://github.com/mvschwarz/openrig/pull/2392) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): show JUST FINISHED clocks in the configured time zone](https://github.com/mvschwarz/openrig/pull/2393) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(transport): stop reporting delivery on a broadcast that reached nobody](https://github.com/mvschwarz/openrig/pull/2359) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): normalize documented --priority values and note the rest](https://github.com/mvschwarz/openrig/pull/2358) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): finish a default rig export beside an existing rig.yaml](https://github.com/mvschwarz/openrig/pull/2356) |
@@ -124,17 +128,13 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(geometry): handle singleton axes in antialiased resize](https://github.com/kornia/kornia/pull/5889) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [fix(contrib): accept detection tensors in visualization](https://github.com/kornia/kornia/pull/5945) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(annotators): preserve grayscale channel axis in blur and pixelation](https://github.com/roboflow/supervision/pull/2725) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(video): cancel source reader after processing failure](https://github.com/roboflow/supervision/pull/2720) |
-| [opencv/opencv](https://github.com/opencv/opencv) | [dnn: fix blobRectsToImageRects when the image is not resized](https://github.com/opencv/opencv/pull/30243) |
 
 <details>
-<summary><strong>Active pull requests (9)</strong></summary>
+<summary><strong>Active pull requests (7)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): preserve finite corners across overflowing box spans](https://github.com/roboflow/supervision/pull/2853) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): retain valid Qwen boxes beside malformed predictions](https://github.com/roboflow/supervision/pull/2851) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(vlm): preserve punctuation in PaliGemma class labels](https://github.com/roboflow/supervision/pull/2852) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 | [kornia/kornia](https://github.com/kornia/kornia) | [feat(geometry): broadcast singleton rotation matrix batches](https://github.com/kornia/kornia/pull/6413) |
