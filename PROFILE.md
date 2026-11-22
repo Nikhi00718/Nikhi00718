@@ -48,6 +48,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): return JSON when archive commands cannot reach the daemon](https://github.com/mvschwarz/openrig/pull/3405) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(slack): keep settled button labels literal](https://github.com/mvschwarz/openrig/pull/3404) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): size table cells in terminal columns, not string length](https://github.com/mvschwarz/openrig/pull/3357) |
+| [aswanth-07/PerrydaPlatypus](https://github.com/aswanth-07/PerrydaPlatypus) | [App: release candidate (structure, Learn and Teach, look and feel, release setup, launcher icon)](https://github.com/aswanth-07/PerrydaPlatypus/pull/1) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Keep each call's prompts when one FastSAM model serves concurrent requests](https://github.com/ultralytics/ultralytics/pull/27233) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Keep segmentation masks correct when converting results to another dtype](https://github.com/ultralytics/ultralytics/pull/27232) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [feat(detection): load Ultralytics semantic segmentation results](https://github.com/roboflow/supervision/pull/2915) |
@@ -121,7 +122,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): trim each state name in GET /api/queue/list](https://github.com/mvschwarz/openrig/pull/1501) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): refuse a managed launch whose session name tmux would rename](https://github.com/mvschwarz/openrig/pull/1500) |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve rectangular classification INT8 calibration shapes](https://github.com/ultralytics/ultralytics/pull/26783) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(cv2): preserve grayscale and BGRA images when encoding](https://github.com/roboflow/supervision/pull/2754) |
 
 <details>
 <summary><strong>Active pull requests (8)</strong></summary>
