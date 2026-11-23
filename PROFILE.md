@@ -42,6 +42,9 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 | Project | Contribution |
 | --- | --- |
+| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
+| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): report path data records as route candidates](https://github.com/morluto/rea/pull/6360) |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: fix stackBlur results on full-range 16-bit images (5.x) 🤖🤖🤖](https://github.com/opencv/opencv/pull/30675) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): size Pulse lanes in terminal columns](https://github.com/mvschwarz/openrig/pull/3407) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): start fleet slice detail without waiting for the list](https://github.com/mvschwarz/openrig/pull/3406) |
@@ -90,7 +93,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [huggingface/transformers](https://github.com/huggingface/transformers) | [Composite transparency in shared RGB conversion and image processors](https://github.com/huggingface/transformers/pull/49079) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(tui): preserve stream connection state across pages](https://github.com/mvschwarz/openrig/pull/2014) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(ps): scope the --host rig view by --rig](https://github.com/mvschwarz/openrig/pull/1698) |
-| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): report path data records as route candidates](https://github.com/morluto/rea/pull/6360) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): avoid Claude status line temp collisions](https://github.com/mvschwarz/openrig/pull/1865) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(transport): guard sends at visible Claude MCP prompts](https://github.com/mvschwarz/openrig/pull/1864) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(stream): drain replay arrivals before switching to live writes](https://github.com/mvschwarz/openrig/pull/1757) |
@@ -112,7 +114,6 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): give recurring watchdog fires distinct delivery identities](https://github.com/mvschwarz/openrig/pull/1583) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): recover workflow wakes through their durable intents](https://github.com/mvschwarz/openrig/pull/1582) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): reject independent readiness changes before compaction](https://github.com/mvschwarz/openrig/pull/1368) |
-| [morluto/rea](https://github.com/morluto/rea) | [fix(javascript): preserve inherited aliases past erased class fields](https://github.com/morluto/rea/pull/5040) |
 | [colmap/colmap](https://github.com/colmap/colmap) | [Preserve target coordinates when downsampling homography warps](https://github.com/colmap/colmap/pull/4880) |
 | [opencv/opencv](https://github.com/opencv/opencv) | [imgproc: avoid padding divisible dimensions in CLAHE](https://github.com/opencv/opencv/pull/30304) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): accept a rig name in rig snapshot, snapshot list, export and restore --rig](https://github.com/mvschwarz/openrig/pull/1681) |
@@ -121,21 +122,20 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): derive missing COCO areas from decoded masks](https://github.com/roboflow/supervision/pull/2763) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): trim each state name in GET /api/queue/list](https://github.com/mvschwarz/openrig/pull/1501) |
 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): refuse a managed launch whose session name tmux would rename](https://github.com/mvschwarz/openrig/pull/1500) |
-| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve rectangular classification INT8 calibration shapes](https://github.com/ultralytics/ultralytics/pull/26783) |
 
 <details>
 <summary><strong>Active pull requests (8)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | [[Bugfix] Return bound ephemeral port when VLLM_PORT is zero](https://github.com/vllm-project/vllm/pull/58696) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): preserve class IDs in low-bit grayscale PNGs](https://github.com/roboflow/supervision/pull/2999) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): evaluate compact masks without full-image arrays](https://github.com/roboflow/supervision/pull/3000) |
 | [roboflow/trackers](https://github.com/roboflow/trackers) | [fix(eval): score a results file with no rows instead of aborting](https://github.com/roboflow/trackers/pull/659) |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): preserve class IDs in low-bit grayscale PNGs](https://github.com/roboflow/supervision/pull/2999) |
 | [roboflow/trackers](https://github.com/roboflow/trackers) | [fix(cli): describe commands and options in --help from their docstrings](https://github.com/roboflow/trackers/pull/670) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Fix deferred trace export race in `MlflowV3SpanExporter`](https://github.com/mlflow/mlflow/pull/26692) |
 
 </details>
 
