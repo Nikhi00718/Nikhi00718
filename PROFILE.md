@@ -36,7 +36,7 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 
 <!-- OSS-CONTRIBUTIONS:START -->
 
-**80 merged · 8 active · 12 closed without merge**
+**78 merged · 10 active · 12 closed without merge**
 
 ### Merged
 
@@ -120,22 +120,22 @@ I contribute focused bug fixes and regression tests to machine-learning and comp
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | [Preserve floating-point SAM mask prompt logits](https://github.com/ultralytics/ultralytics/pull/26794) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): prevent float16 overflow in box areas](https://github.com/roboflow/supervision/pull/2764) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(dataset): derive missing COCO areas from decoded masks](https://github.com/roboflow/supervision/pull/2763) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): trim each state name in GET /api/queue/list](https://github.com/mvschwarz/openrig/pull/1501) |
-| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(daemon): refuse a managed launch whose session name tmux would rename](https://github.com/mvschwarz/openrig/pull/1500) |
 
 <details>
-<summary><strong>Active pull requests (8)</strong></summary>
+<summary><strong>Active pull requests (10)</strong></summary>
 
 | Project | Contribution |
 | --- | --- |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | [[Bugfix] Return bound ephemeral port when VLLM_PORT is zero](https://github.com/vllm-project/vllm/pull/58696) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(detection): preserve class IDs in low-bit grayscale PNGs](https://github.com/roboflow/supervision/pull/2999) |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | [fix(metrics): evaluate compact masks without full-image arrays](https://github.com/roboflow/supervision/pull/3000) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): size workflow table cells in terminal columns](https://github.com/mvschwarz/openrig/pull/3854) |
+| [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | [fix(cli): return JSON when more commands cannot reach the daemon](https://github.com/mvschwarz/openrig/pull/3853) |
+| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | [[Bugfix] Return bound ephemeral port when VLLM_PORT is zero](https://github.com/vllm-project/vllm/pull/58696) |
 | [roboflow/trackers](https://github.com/roboflow/trackers) | [fix(eval): score a results file with no rows instead of aborting](https://github.com/roboflow/trackers/pull/659) |
 | [roboflow/trackers](https://github.com/roboflow/trackers) | [fix(cli): describe commands and options in --help from their docstrings](https://github.com/roboflow/trackers/pull/670) |
 | [scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) | [Fix marching cubes ties at isosurface values](https://github.com/scikit-image/scikit-image/pull/8275) |
 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | [fix(tools): check the routed path against the app_api blocklist](https://github.com/odysseus-dev/odysseus/pull/6523) |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | [Fix CombinedLoader max_size_cycle with empty iterable](https://github.com/Lightning-AI/pytorch-lightning/pull/21894) |
 
 </details>
 
